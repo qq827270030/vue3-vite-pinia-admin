@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div>111</div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+// import SvgIcon from '@/components/SvgIcon/index.vue'
+</script>
+
+<style scoped lang="scss"></style>
